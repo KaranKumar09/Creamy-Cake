@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --openssl-legacy-provider build"
+     "build": "[my-framework] build --output public"
   },
   "browserslist": {
     "production": [
