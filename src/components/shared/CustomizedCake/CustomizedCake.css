@@ -1,0 +1,129 @@
+
+.customized-cake-page {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Title style */
+.customized-cake-page h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #6D28D9;
+}
+
+/* Form field container */
+.customized-cake-page .form-field {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* Label style */
+.customized-cake-page label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  display: block;
+  color: #555;
+}
+
+/* Select dropdown styling */
+.customized-cake-page select {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button styling */
+.customized-cake-page button {
+  cursor: pointer;
+  background-color: #6D28D9;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.customized-cake-page button:hover {
+  background-color: #c93030;
+}
+
+/* Submit button style */
+.customized-cake-page .submit-button {
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* Modal for the summary */
+.customized-cake-page .summary-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  max-width: 400px;
+  text-align: center;
+}
+
+.customized-cake-page .summary-modal h2 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.customized-cake-page .summary-modal p {
+  font-size: 1rem;
+  margin: 10px 0;
+  color: #555;
+}
+
+/* Modal buttons style */
+.customized-cake-page .modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.customized-cake-page .modal-buttons button {
+  flex: 1;
+  padding: 10px 15px;
+}
+
+/* Close button style */
+.customized-cake-page .close-button {
+  background-color: #f44336;
+}
+
+.customized-cake-page .close-button:hover {
+  background-color: #d32f2f;
+}
+
+/* Edit button style */
+.customized-cake-page .edit-button {
+  background-color: #4caf50;
+}
+
+.customized-cake-page .edit-button:hover {
+  background-color: #388e3c;
+}
+
+/* Page overlay for the modal */
+.customized-cake-page .page-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
